@@ -1,7 +1,7 @@
 <script>
 import '@fortawesome/fontawesome-free/css/all.css'
 import AppHeader from "./components/AppHeader.vue"
-import AppMain1 from "./components/AppMain1.vue"
+import AppMain from "./components/AppMain.vue"
 import AppFooter from "./components/AppFooter.vue"
 export default {
   data() {
@@ -12,7 +12,7 @@ export default {
 
   components: {
     AppHeader,
-    AppMain1,
+    AppMain,
     AppFooter,
   },
 }
@@ -20,7 +20,7 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
-  <AppMain1></AppMain1>
+  <AppMain></AppMain>
   <AppFooter></AppFooter>
 </template>
 

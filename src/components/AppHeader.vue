@@ -56,7 +56,7 @@ export default {
     padding-right: 25px;
     border: $brd;
     color: $clr;
-  }
+}
     #container {
         position: relative;
         width: 100vw;
