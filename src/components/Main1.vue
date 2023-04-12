@@ -67,14 +67,6 @@ export default {
         font-weight: lighter;
         letter-spacing: 5px;
       }
-      hr {
-        width: 20%;
-        height: 3px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        border: none;
-        background-color: #fec96b;
-      }
       p {
         line-height: 40px;
         padding-bottom: 20px;
