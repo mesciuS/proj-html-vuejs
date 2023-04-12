@@ -63,10 +63,6 @@ export default {
     .left {
       width: 65%;
       padding: 100px;
-      h2 {
-        font-weight: lighter;
-        letter-spacing: 5px;
-      }
       p {
         line-height: 40px;
         padding-bottom: 20px;
