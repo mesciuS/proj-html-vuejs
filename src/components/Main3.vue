@@ -39,10 +39,10 @@ export default {
   #container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 800px;
-    padding: 130px;
+    padding: 100px;
     .top-wrapper {
       display: flex;
       flex-direction: column;
@@ -58,7 +58,7 @@ export default {
       gap: 40px;
       .card {
         height: 250px;
-        width: 350px;
+        width: calc(100% - 200px);
         img {
           width: 100%;
         }

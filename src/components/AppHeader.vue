@@ -50,10 +50,7 @@ export default {
 <style lang="scss" scoped>
 @mixin bottone($bg: #fec96b, $brd: none, $clr: white) {
     background-color: $bg;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 12px 25px 12px 25px;
     border: $brd;
     color: $clr;
 }
@@ -64,10 +61,7 @@ export default {
         background-image: url("../images/header-bg.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 60px;
-        padding-right: 60px;
+        padding: 40px 60px 40px 60px;
         color: white;
         .links{
             display: flex;

@@ -34,7 +34,7 @@ export default {
     background-image: url("../images/header-bg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 130px;
+    padding: 100px;
     color: white;
     .top-wrapper {
       display: flex;

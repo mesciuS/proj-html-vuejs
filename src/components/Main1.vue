@@ -50,10 +50,7 @@ export default {
 <style lang="scss" scoped>
 @mixin bottone($bg: #fec96b, $brd: none, $clr: white) {
     background-color: $bg;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 12px 25px 12px 25px;
     border: $brd;
     color: $clr;
 }
