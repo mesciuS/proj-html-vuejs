@@ -98,6 +98,7 @@ export default {
         width: 50%;
         height: 500px;
         border: 2px solid #e5e5e5;
+        border-bottom-style: outset;
         .img-wrapper {
           width: 100%;
           img {

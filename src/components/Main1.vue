@@ -59,9 +59,9 @@ export default {
     height: 600px;
     .left {
       width: 65%;
-      padding: 100px;
-      overflow-y: scroll;
+      padding: 100px 100px 60px 100px;
       p {
+        font-size: .8em;
         line-height: 40px;
         padding-bottom: 20px;
       }

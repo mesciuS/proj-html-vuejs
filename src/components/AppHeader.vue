@@ -23,11 +23,11 @@ export default {
             </ul>
         </div>
         <div class="side-btns">
-            <div class="prebuilts">
+            <div class="prebuilts grow">
                 <i class="fa-solid fa-folder-open"></i>
                 <p>Prebuilts</p>
             </div>
-            <div class="on-sale">
+            <div class="on-sale grow">
                 <div class="wrapper">
                     <i class="fa-solid fa-dollar-sign dollaro"></i>
                     <i class="fa-solid fa-4 quattro"></i>
@@ -73,6 +73,10 @@ export default {
                 display: flex;
                 align-items: center;
                 gap: 50px;
+                i {
+                    font-size: .9em;
+                    padding-left: 10px;
+                }
                 button {
                     @include bottone;
                 }

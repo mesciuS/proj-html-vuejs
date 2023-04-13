@@ -56,7 +56,7 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 800px;
+    height: 700px;
     background-image: url("../images/header-bg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
