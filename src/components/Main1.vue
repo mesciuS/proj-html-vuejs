@@ -63,6 +63,7 @@ export default {
     .left {
       width: 65%;
       padding: 100px;
+      overflow-y: scroll;
       p {
         line-height: 40px;
         padding-bottom: 20px;
