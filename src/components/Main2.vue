@@ -16,15 +16,41 @@ export default {
         <p>Think Big. Act Bigger.</p>
       </div>
       <div class="bottom-wrapper">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card">
+          <i class="fa-solid fa-droplet"></i>
+          <h4>Clean Water</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt minus dignissimos.</p>
+          <button>learn more</button>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-stethoscope"></i>
+          <h4>Vaccinations</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt minus dignissimos.</p>
+          <button>learn more</button>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h4>Education</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt minus dignissimos.</p>
+          <button>learn more</button>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-wheat-awn"></i>
+          <h4>Farming</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt minus dignissimos.</p>
+          <button>learn more</button>
+        </div>
       </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
+@mixin bottone($bg: #fec96b, $brd: none, $clr: white) {
+    background-color: $bg;
+    padding: 12px 25px 12px 25px;
+    border: $brd;
+    color: $clr;
+}
   #container {
     display: flex;
     flex-direction: column;
@@ -50,9 +76,26 @@ export default {
       display: flex;
       gap: 40px;
       .card {
-        border: 1px solid red;
-        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 300px;
         width: 300px;
+        i {
+          font-size: 3em;
+          color: #fec96b;
+        }
+        h4 {
+          font-size: 1.5em;
+          font-weight: lighter;
+        }
+        p {
+          text-align: center;
+        }
+        button {
+          @include bottone
+        }
       }
     }
   }
